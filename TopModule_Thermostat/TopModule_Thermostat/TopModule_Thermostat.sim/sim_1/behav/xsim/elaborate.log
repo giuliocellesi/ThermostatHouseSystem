@@ -1,0 +1,57 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_SYSTEMCORE_behav xil_defaultlib.TB_SYSTEMCORE xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 5 for port 'in_var' [C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/SYSTEM_CORE_TOP_MODULE.v:58]
+WARNING: [VRFC 10-3091] actual bit length 6 differs from formal bit length 2 for port 'minuti' [C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/SYSTEM_CORE_TOP_MODULE.v:71]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.temp_hour
+Compiling module xil_defaultlib.fsmVAR
+Compiling module xil_defaultlib.fsmCONF
+Compiling module xil_defaultlib.var_driver_selector
+Compiling module xil_defaultlib.VAR_DRIVER
+Compiling module xil_defaultlib.fsm_rele
+Compiling module xil_defaultlib.contasec(stab=10,t_base=9999999)
+Compiling module xil_defaultlib.orologio(DX_MAX=3)
+Compiling module xil_defaultlib.MUX_2(DW=8)
+Compiling module xil_defaultlib.Driver_MANOR_CELLAR
+Compiling module xil_defaultlib.SELECTOR_SYST_CORE
+Compiling module xil_defaultlib.MUX_2(DW=2)
+Compiling module xil_defaultlib.MUX_2(DW=12)
+Compiling module xil_defaultlib.DISPLAY_LED_DRIVER
+Compiling module xil_defaultlib.CLOCK_COUNTER(QTY=200,TU=1000000...
+Compiling module xil_defaultlib.DB(TU=1000000)
+Compiling module xil_defaultlib.REG(DW=5)
+Compiling module xil_defaultlib.START_DRIVERM
+Compiling module xil_defaultlib.MUX_2(DW=5)
+Compiling module xil_defaultlib.COUNTER_SS
+Compiling module xil_defaultlib.SUB_SUM_DRIVER
+Compiling module xil_defaultlib.DELTA_T_DRIVER
+Compiling module xil_defaultlib.FSMM
+Compiling module xil_defaultlib.REG(DW=6)
+Compiling module xil_defaultlib.WINDOWS_OPEN_DRIVER
+Compiling module xil_defaultlib.TIMER(QTY=10)
+Compiling module xil_defaultlib.RT_DRIVER
+Compiling module xil_defaultlib.MUX_2
+Compiling module xil_defaultlib.MUX_2(DW=3)
+Compiling module xil_defaultlib.MUX_4(DW=6)
+Compiling module xil_defaultlib.TOP_MODULE_MANOR
+Compiling module xil_defaultlib.time_driver
+Compiling module xil_defaultlib.alarm_driver
+Compiling module xil_defaultlib.contasec(stab=10,t_base=34'b0101...
+Compiling module xil_defaultlib.top_alarm
+Compiling module xil_defaultlib.START_DRIVERC
+Compiling module xil_defaultlib.fsm_modified
+Compiling module xil_defaultlib.WINDOWS_OPEN_DRIVERC
+Compiling module xil_defaultlib.TOP_MODULE_CELLAR
+Compiling module xil_defaultlib.CLOCK_COUNTER(QTY=5,TU=10000000)
+Compiling module xil_defaultlib.LED_DRIVER
+Compiling module xil_defaultlib.SYSTEM_CORE_TOP_MODULE
+Compiling module xil_defaultlib.TB_SYSTEMCORE
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_SYSTEMCORE_behav

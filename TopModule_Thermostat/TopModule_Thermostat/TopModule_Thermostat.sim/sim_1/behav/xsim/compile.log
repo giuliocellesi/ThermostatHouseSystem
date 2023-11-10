@@ -1,0 +1,69 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/30min_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module time_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/CLOCK_COUNTER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLOCK_COUNTER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/DB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/DELTA_T_DRIVER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DELTA_T_DRIVER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/DISPLAY_LED_DRIVER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DISPLAY_LED_DRIVER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/Driver_MANOR_CELLAR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Driver_MANOR_CELLAR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/FSM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSMM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/LED_DRIVER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LED_DRIVER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/MUX_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/MUX_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/RT_DRIVER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RT_DRIVER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/SELECTOR_SYST_CORE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SELECTOR_SYST_CORE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/START_DRIVERC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module START_DRIVERC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/START_DRIVERM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module START_DRIVERM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/SUB_SUM_DRIVER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SUB_SUM_DRIVER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/SYSTEM_CORE_TOP_MODULE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SYSTEM_CORE_TOP_MODULE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/TIMER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TIMER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/TOP_MODULE_CELLAR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP_MODULE_CELLAR
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'RUN' is not allowed [C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/TOP_MODULE_CELLAR.v:37]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/TOP_MODULE_MANOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP_MODULE_MANOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/VAR_DRIVER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VAR_DRIVER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/WINDOWS_OPEN_DRIVER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WINDOWS_OPEN_DRIVER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/WINDOWS_OPEN_DRIVERC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WINDOWS_OPEN_DRIVERC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/alarm_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alarm_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/contasec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module contasec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/fsmAL_REST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsmVAR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/new/fsmCONF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsmCONF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/fsm_modified.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm_modified
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/sources_1/new/fsm_rele.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm_rele
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/orologio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module orologio
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/temp_hour.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module temp_hour
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/top_alarm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_alarm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sources_1/imports/crazy mod/var_driver_selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module var_driver_selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Universit/SEA_2/Assignment_2/TopModule_Thermostat/TopModule_Thermostat.srcs/sim_1/imports/Downloads/TB_SYSTEMCORE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_SYSTEMCORE

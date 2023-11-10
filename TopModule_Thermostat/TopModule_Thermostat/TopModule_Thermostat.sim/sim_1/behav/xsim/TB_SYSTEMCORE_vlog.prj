@@ -1,0 +1,43 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/30min_driver.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/CLOCK_COUNTER.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/new/COUNTER_SS.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/DB.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/DELTA_T_DRIVER.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/DISPLAY_LED_DRIVER.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/Driver_MANOR_CELLAR.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/FSM.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/LED_DRIVER.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/MUX_2.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/MUX_4.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/REG.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/RT_DRIVER.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/SELECTOR_SYST_CORE.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/START_DRIVERC.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/START_DRIVERM.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/SUB_SUM_DRIVER.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/SYSTEM_CORE_TOP_MODULE.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/TIMER.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/TOP_MODULE_CELLAR.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/TOP_MODULE_MANOR.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/VAR_DRIVER.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/WINDOWS_OPEN_DRIVER.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/WINDOWS_OPEN_DRIVERC.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/alarm_driver.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/contasec.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/fsmAL_REST.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/new/fsmCONF.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/fsm_modified.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/sources_1/new/fsm_rele.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/orologio.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/temp_hour.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/top_alarm.v" \
+"../../../../TopModule_Thermostat.srcs/sources_1/imports/crazy mod/var_driver_selector.v" \
+"../../../../TopModule_Thermostat.srcs/sim_1/imports/Downloads/TB_SYSTEMCORE.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

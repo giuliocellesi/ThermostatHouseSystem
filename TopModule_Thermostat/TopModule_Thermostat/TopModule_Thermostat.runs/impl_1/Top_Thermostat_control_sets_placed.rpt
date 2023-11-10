@@ -1,0 +1,125 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Jun 15 21:04:14 2023
+| Host         : LAPTOP-9HK07Q48 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_Thermostat_control_sets_placed.rpt
+| Design       : Top_Thermostat
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    47 |
+|    Minimum number of control sets                        |    47 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   139 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    47 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |    18 |
+| >= 6 to < 8        |     7 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    20 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |             532 |          158 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              60 |           15 |
+| Yes          | No                    | Yes                    |             413 |          121 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+--------------------------------------------------------------------+------------------+------------------+----------------+--------------+
+|       Clock Signal       |                            Enable Signal                           | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------------------+--------------------------------------------------------------------+------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG           | SPI_TOP/SLAVE_BUTTONS/CLK_GEN_SL/E[0]                              | rst_IBUF         |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG           | SPI_TOP/MASTER_BUTTONS/TP_0/M_AD/counterClkFronts[3]_i_1__0_n_0    | rst_IBUF         |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG           | SCore/variazioni_segnali/fsm_cnfm/E[0]                             | rst_IBUF         |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG           | SPI_TOP/DUT_M/TP_0/M_AD/out_f_edge_reg_0[0]                        | rst_IBUF         |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG           | SCore/M_TOP/dbcM/Q[0]                                              | rst_IBUF         |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG           | SPI_TOP/CELLAR/CLK_GEN_SL/f_edge_reg_0[0]                          | rst_IBUF         |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG           | SPI_TOP/MANOR/CLK_GEN_SL/f_edge_reg_0[0]                           | rst_IBUF         |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG           | CommsDispatcher/fifo_auxiliary/u2/E[0]                             | rst_IBUF         |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG           | MANOR/FIFO/u2/E[0]                                                 | rst_IBUF         |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG           | CommsDispatcher/fifo_auxiliary/u2/FSM_sequential_state_reg[0]_0[0] | rst_IBUF         |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG           | MANOR/FIFO/u2/FSM_sequential_state_reg[2]_2[0]                     | rst_IBUF         |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG           | CELLAR/FIFO/u2/FSM_sequential_state_reg[2]_1[0]                    | rst_IBUF         |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG           | SCore/C_TOP/dbc/Q[0]                                               | rst_IBUF         |                3 |              5 |         1.67 |
+|  clk_IBUF_BUFG           | SPI_TOP/DISPLAY/CLK_GEN_SL/enable_CHRX_reg_2[0]                    | rst_IBUF         |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG           | SPI_TOP/DISPLAY/CLK_GEN_SL/enable_CHRX_reg_1[0]                    | rst_IBUF         |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG           | SPI_TOP/DISPLAY/CLK_GEN_SL/r_edge_reg_0[0]                         | rst_IBUF         |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG           | CELLAR/FIFO/u2/E[0]                                                | rst_IBUF         |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG           | SPI_TOP/DISPLAY/CLK_GEN_SL/f_edge_reg_0[0]                         | rst_IBUF         |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG           | SCore/C_TOP/rt_driver/RTR[5]_i_1__0_n_0                            | rst_IBUF         |                2 |              6 |         3.00 |
+|  log/DUT/BR_GEN/baud_clk |                                                                    | rst_IBUF         |                3 |              6 |         2.00 |
+|  clk_IBUF_BUFG           | SCore/time_scan/timer/E[0]                                         | rst_IBUF         |                1 |              6 |         6.00 |
+|  clk_IBUF_BUFG           | log/DUT/FSM_TX/E[0]                                                | rst_IBUF         |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG           | SCore/M_TOP/rt_driverM/RTR[5]_i_1_n_0                              | rst_IBUF         |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG           | SPI_TOP/DUT_M/TP_0/M_AD/counterClkFronts[6]_i_1_n_0                | rst_IBUF         |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG           | log/DUT/DATA_IN/en_in                                              | rst_IBUF         |                5 |              7 |         1.40 |
+|  clk_IBUF_BUFG           | ID_SW_IBUF                                                         | rst_IBUF         |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG           | SCore/select_disp/st_cel[7]_i_1_n_0                                | rst_IBUF         |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG           | CommsDispatcher/MASTER_FIFO_DISPLAY/FSM/E[0]                       | rst_IBUF         |                4 |             20 |         5.00 |
+|  clk_IBUF_BUFG           | SPI_TOP/MANOR/CLK_GEN_SL/E[0]                                      | rst_IBUF         |                5 |             20 |         4.00 |
+|  clk_IBUF_BUFG           | SPI_TOP/CELLAR/CLK_GEN_SL/E[0]                                     | rst_IBUF         |                7 |             20 |         2.86 |
+|  clk_IBUF_BUFG           | SPI_TOP/CELLAR/TX_Byte[19]_i_1__0_n_0                              | rst_IBUF         |                4 |             20 |         5.00 |
+|  clk_IBUF_BUFG           | CELLAR/SLAVE_FIFO/FSM/E[0]                                         | rst_IBUF         |                4 |             20 |         5.00 |
+|  clk_IBUF_BUFG           | CELLAR/FIFO/u2/E[0]                                                |                  |                5 |             20 |         4.00 |
+|  clk_IBUF_BUFG           | SPI_TOP/DISPLAY/CLK_GEN_SL/E[0]                                    | rst_IBUF         |                6 |             20 |         3.33 |
+|  clk_IBUF_BUFG           | CELLAR/FIFO/u2/FSM_sequential_state_reg[2]_1[0]                    |                  |                5 |             20 |         4.00 |
+|  clk_IBUF_BUFG           | MANOR/SLAVE_FIFO/FSM/E[0]                                          | rst_IBUF         |                5 |             20 |         4.00 |
+|  clk_IBUF_BUFG           | CommsDispatcher/fifo_auxiliary/u2/E[0]                             |                  |                5 |             20 |         4.00 |
+|  clk_IBUF_BUFG           | MANOR/FIFO/u2/E[0]                                                 |                  |                5 |             20 |         4.00 |
+|  clk_IBUF_BUFG           | CommsDispatcher/fifo_auxiliary/u2/FSM_sequential_state_reg[0]_0[0] |                  |                5 |             20 |         4.00 |
+|  clk_IBUF_BUFG           | SCore/variazioni_segnali/E[0]                                      | rst_IBUF         |                4 |             20 |         5.00 |
+|  clk_IBUF_BUFG           | SPI_TOP/DISPLAY/RX_valid_reg_0                                     | rst_IBUF         |                5 |             20 |         4.00 |
+|  clk_IBUF_BUFG           | log/TIMER_AUX/E[0]                                                 | rst_IBUF         |                9 |             20 |         2.22 |
+|  clk_IBUF_BUFG           | SPI_TOP/MANOR/TX_Byte[19]_i_1_n_0                                  | rst_IBUF         |                3 |             20 |         6.67 |
+|  clk_IBUF_BUFG           | MANOR/FIFO/u2/FSM_sequential_state_reg[2]_2[0]                     |                  |                5 |             20 |         4.00 |
+|  clk_IBUF_BUFG           | SPI_TOP/DUT_M/TP_0/M_AD/E[0]                                       | rst_IBUF         |                5 |             25 |         5.00 |
+|  clk_IBUF_BUFG           | SCore/time_scan/timer/cnt[26]_i_1_n_0                              | rst_IBUF         |               11 |             27 |         2.45 |
+|  clk_IBUF_BUFG           |                                                                    | rst_IBUF         |              155 |            526 |         3.39 |
++--------------------------+--------------------------------------------------------------------+------------------+------------------+----------------+--------------+
+
+
