@@ -18,14 +18,14 @@ The system has been extended to include multiple areas: main manor and wine cell
 
 ## Repository Structure
 
-    /code: Contains Verilog source code files for the thermostat system.
-    /docs: Includes the project report documenting functional, technical, and demonstration aspects of the system.
-    /testbench: Holds testbench files
+/TopModule_Thermostat: Contains Verilog source code files for the thermostat system.
+/Report.pdf: Includes the project report documenting functional, technical, and demonstration aspects of the system.
+/testbench: Holds testbench files
 
 
 ## How to Use
 
-    Clone the repository to your local machine.
-    Navigate to the /code directory.
-    Upload the Verilog files to your BASYS3 FPGA board using your preferred synthesis tool.
-    Refer to the documentation in the /docs directory for detailed information on system functionality, technical aspects, and demonstration instructions.
+Clone the repository to your local machine.
+Navigate to the /TopModule_Thermostat directory.
+Upload the Verilog files to your BASYS3 FPGA board using your preferred synthesis tool.
+Refer to the documentation in the Report.pdf for detailed information on system functionality, technical aspects, and demonstration instructions.
